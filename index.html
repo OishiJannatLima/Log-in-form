@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <h2 class="form">Registation form</h2> 
+ <form>
+    <div class="fullname">
+        <label for="fullname">Full Name:</label>
+        <input type="text" name="fullname" id="fullname" placeholder="user name">
+    </div><br>
+
+    <div class="e-mail">
+        <label for="e-mail">E-mail:</label>
+        <input type="text" name="e-mail" id="e-mail" placeholder="e-mail">
+    </div><br>
+
+    <div class="password">
+        <label for="password">Password:</label>
+        <input type="number" name="password" id="password" placeholder="password">
+    </div><br>
+
+    <div class="date">
+        <label for="dob">Date Of Birth:</label>
+        <input type="date" name="dob" id="dob">
+    </div><br>
+
+    <div class="photo">
+        <label for="photo">Choose Your Photo:</label>
+        <input type="file" name="photo" id="photo">
+    </div><br>
+
+    <div class="gender">
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender" id="gender"> Male
+        <input type="radio" name="gender" id="gender"> Female
+    </div><br>
+
+    <div class="religion">
+        <label for="religion">Religion:</label>
+        <input type="checkbox" name="religion" id="religion"> Islam
+        <input type="checkbox" name="religion" id="religion"> Hindu
+    </div><br>
+
+    <div class="department">
+        <label for="department">Department:</label>
+        <select name="department" id="department">
+            <option value="cse">CSE:</option>
+            <option value="eee">EEE:</option>
+            <option value="llb">LLB:</option>
+        </select>
+    </div><br>
+
+    <div class="message">
+        <label for="message">Message:</label><br>
+        <textarea name="message" id="message" cols="30" rows="30"></textarea>
+    </div>
+
+    <div class="submit">
+        <input type="submit" value="Register" id="submit">
+        <input type="submit" value="Clear" id="submit">
+    </div>
+
+
+
+
+ </form>  
+</body>
+</html>

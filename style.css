@@ -1,0 +1,106 @@
+*{
+padding: 0;
+margin: 0;
+}
+
+.form{
+    text-align: center;
+    font-size: 30px;
+    color: darkblue;
+}
+.fullname{
+    padding: 10px;
+    color: blue;
+    font-size: 30px;
+}
+#fullname{
+    padding: 10px;
+    border-radius: 7px;
+    background-color: antiquewhite;
+}
+
+.e-mail{
+    padding: 10px;
+    color: red;
+    font-size: 30px;
+}
+
+#e-mail{
+    padding: 10px;
+    border-radius: 7px;
+    background-color: aqua;
+}
+
+.password{
+    padding: 10px;
+    color: darkorange;
+    font-size: 30px;
+}
+#password{
+    padding: 10px;
+    border-radius: 7px;
+    background-color: bisque;
+}
+
+.date{
+    padding: 10px;
+    color: yellowgreen;
+    font-size: 30px;
+}
+#dob{
+    padding: 10px;
+    border-radius: 7px;
+    background-color: cornflowerblue;
+}
+
+.photo{
+    padding: 10px;
+    color: deeppink;
+    font-size: 30px;
+}
+#photo{
+    padding: 7px;
+    border-radius: 5px;
+    background-color: khaki;
+
+}
+.gender{
+    padding: 10px;
+    color: teal;
+    font-size: 30px;
+}
+.religion{
+    padding: 10px;
+    color: orangered;
+    font-size: 30px;
+}
+
+.department{
+    padding: 10px;
+    color: navy;
+    font-size: 30px;
+}
+#department{
+    padding: 7px;
+    border-radius: 5px;
+    background-color: sienna;
+    color: black;
+}
+.message{
+    padding: 10px;
+    font-size: 30px;
+    color: olivedrab;
+}
+#message{
+    border-radius: 10px;
+    background-color: navajowhite;
+    margin: 10px;
+    box-shadow: 2px 2px 2px 2px tomato;
+}
+#submit{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: violet;
+    color: black;
+}
